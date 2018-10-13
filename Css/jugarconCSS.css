@@ -1,0 +1,14 @@
+body {
+    background-color: Tomato;
+    background-image: href="C:\Users\Tony\Dropbox\coding\coffee.jpg";
+}
+h1 {
+    color: white;
+}
+p {
+    color: black;
+    font-size: 20px;
+    font-family: calibri;
+    border: 0.5px solid powderblue;
+    padding: 5px;
+}

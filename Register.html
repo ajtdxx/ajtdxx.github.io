@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+	<div> <!--Div es para dividir blocks, muy util en CSS-->
+	<!-- USE GET, not POST, para hacer comentarios-->
+	<form method="GET">
+		<span>Shop:</span><input type="text" name="shop" required=""><br><!--span lo mismo que div, pero en una linea,util para CSS-->
+		Where:<br>
+		<input type="checkbox" name="Tesco"> Tesco<br>
+		<input type="checkbox" name="Lidl"> Lidl<br>
+		Tienda de España:<br>
+		<select value="Tienda de España">
+			<option value="Mercadona" name="Mercadona" >Mercadona</option>
+			<option value="Alcampo" name="Alcampo" >Alcampo</option>
+			<option value="Medina" name="Medina" >Medina</option>
+		</select><br>
+		Car:
+		<input type="list" name="">
+		Who:<br>
+		<input type="radio" name="Who" value="Tony" required="">Tony<br>
+		<input type="radio" name="Who" value="Pi" required="">Pi<br>
+		When:<input type="date" name="date" required=""><br>
+		email:<input type="email" name="email">
+		password:<input type="password" name="password" min="4" ="">
+		<input type="submit" name="submit">
+		<input type="reset">
+	</form>
+	</div>
+
+</body>
+</html>

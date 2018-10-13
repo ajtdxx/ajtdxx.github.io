@@ -1,0 +1,13 @@
+body {
+    background-color: Tomato;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 40px;
+    font-family: calibri;
+    border: 0.5px solid powderblue;
+    padding: 20px;
+}
